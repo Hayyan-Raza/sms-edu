@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 30px;
+    height: auto;
+    margin-left: 50px;
+}
+.para{
+    margin-left: 10px;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-flex;
+}
+.collapse{
+    text-align: right;
+    justify-content: right;
+    margin-right: 50px;
+}
+.text{
+    position: absolute;
+    display: flex;
+    /* top: 100px !important; */
+    bottom: 350px !important;
+    background-color: rgba(174, 174, 174,0.6);
+    /* justify-content: center;
+    text-align: center; */
+}
+.faqs{
+    margin-top:100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;   
+}
+.foo{
+    margin-top: 100px;
+}
+main{
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.cards{
+    background-color: rgb(237, 237, 237);
+    padding: 10px;
+    border-radius: 10px;
+}
+.cards > ul li{
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.nav-item:hover{
+    border-bottom: 2px solid rgb(0, 0, 0);
+
+}
+form{
+    margin-top: 80px;
+    width: 40%;
+}
+.contact{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+}
+.section{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 80px;
+    width: 30%;
+    overflow: hidden;
+}
+.Heading{
+    margin-top: 25px;
+    object-fit: cover;
+    position: absolute;
+}
+.feedback{
+    margin-top: -55px;
+}
